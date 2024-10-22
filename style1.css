@@ -1,0 +1,160 @@
+header {
+    background: #333333;
+    color: #e92e2e;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.foto-cartaz {
+    width: 160px;
+    height: 160px;
+    border-radius: 12%;
+    object-fit: cover;
+    border: 6px solid #3354e7;
+}
+
+.sinopse {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sinopse-informacoes {
+    flex: 1;
+}
+
+.sinopse-informacoes {
+    margin-bottom: 0.5rem;
+}
+
+.sinopse-informacoes {
+    font-size: 1rem;
+    color: #555;
+}
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(255, 11, 11);
+    transition: transform 0,3s ease, box-shadow 0.3 ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(255, 0, 0);
+}
+
+.formulario button {
+    margin-right: 50px;
+}
+
+.formulario {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 10px;
+    height: 44px;
+    width: 40%;
+    transform: translate(360px, 0%);
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+button {
+    color:#e92e2e;
+    border-radius: 60px;
+    font-size: 20;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border-radius: 60px;
+    padding: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgb(22, 90, 236);
+}
+
+
+.ta {
+    width: 160px;
+    height: 160px;
+    border-radius: 12%;
+    object-fit: cover;
+    border: 6px solid #ffe75fd8;
+}
+.te {
+    width: 160px;
+    height: 160px;
+    border-radius: 12%;
+    object-fit: cover;
+    border: 6px solid #5faaffd8; 
+}
+
+.ti {
+    width: 160px;
+    height: 160px;
+    border-radius: 12%;
+    object-fit: cover;
+    border: 6px solid #bf5fffd8;
+}
+
+.to {
+    width: 160px;
+    height: 160px;
+    border-radius: 12%;
+    object-fit: cover;
+    border: 6px solid #5fff94d8;
+}
+
+.tu {
+    width: 160px;
+    height: 160px;
+    border-radius: 12%;
+    object-fit: cover;
+    border: 6px solid #ff5f5fd8;
+}
+
